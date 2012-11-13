@@ -8,6 +8,7 @@ gem 'rails', '3.2.8'
 group :development, :test do
   gem 'sqlite3'
   gem 'annotate', ">=2.5.0"
+  gem 'factory_girl_rails'
 end
 group :production do
   gem 'pg'
@@ -24,14 +25,13 @@ group :assets do
   # gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '>= 1.0.3'
- 
-
 end
 
 gem 'jquery-rails'
 gem "therubyracer"
 gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
 gem "twitter-bootstrap-rails"
+gem 'gravatar_image_tag'
 
 
 
